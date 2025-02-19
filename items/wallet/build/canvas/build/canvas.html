@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon application avec canvas</title>
+    <style>
+        #canvasContainer {
+            width: 600px;
+            height: 400px;
+            border: 1px solid black;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="canvasContainer"></div>
+    <script>
+        const canvas = document.createElement('canvas');
+        canvas.id = 'myCanvas';
+        const container = document.getElementById('canvasContainer');
+        container.appendChild(canvas);
+
+        // ... Le reste de votre code JavaScript pour dessiner sur le canvas
+    </script>
+</body>
+</html>

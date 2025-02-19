@@ -1,0 +1,1 @@
+const modulesData = JSON.parse(localStorage.getItem('modules'));

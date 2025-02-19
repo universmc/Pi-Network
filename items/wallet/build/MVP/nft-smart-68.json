@@ -1,0 +1,19 @@
+{
+    "objectif": "Générer un revenu de 68€ par jour",
+    "KPI": "Nombre de NFT vendus par jour",
+    "actions": [
+      {
+        "action": "Publier 5 nouveaux NFT sur OpenSea",
+        "délai": "Matin"
+      },
+      {
+        "action": "Promouvoir les NFTs sur les réseaux sociaux",
+        "délai": "Après-midi"
+      },
+      {
+        "action": "Analyser les statistiques de vente et ajuster la stratégie si nécessaire",
+        "délai": "Soir"
+      }
+    ],
+    "ressources": ["Compte OpenSea", "Réseaux sociaux", "Outil d'analyse"]
+  }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche technique client</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .label {
+            font-weight: bold;
+        }
+        .list {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fiche technique client</h1>
+
+        <div class="section">
+            <h2>Informations personnelles</h2>
+            <p><span class="label">Nom :</span> <span id="nom"></span></p>
+            <p><span class="label">Prénom :</span> <span id="prenom"></span></p>
+            <p><span class="label">Âge :</span> <span id="age"></span></p>
+            <p><span class="label">Adresse e-mail :</span> <span id="email"></span></p>
+            <p><span class="label">Localisation :</span> <span id="localisation"></span></p>
+        </div>
+
+        <div class="section">
+            <h2>Informations professionnelles</h2>
+            <p><span class="label">Profession :</span> <span id="profession"></span></p>
+            <p><span class="label">Niveau d'études :</span> <span id="etudes"></span></p>
+            <p><span class="label">Centre d'intérêt :</span> <span id="interet"></span></p>
+        </div>
+
+        <div class="section">
+            <h2>Interactions</h2>
+            <p><span class="label">Date d'inscription :</span> <span id="inscription"></span></p>
+            <p><span class="label">Nombre de visites :</span> <span id="visites"></span></p>
+            <div class="section">
+                <h3>Produits achetés</h3>
+                <ul id="produits" class="list"></ul>
+            </div>
+            <div class="section">
+                <h3>Formations suivies</h3>
+                <ul id="formations" class="list"></ul>
+            </div>
+            <div class="section">
+                <h3>Contributions</h3>
+                <ul id="contributions" class="list"></ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Préférences</h2>
+            <p><span class="label">Types de produits :</span> <span id="produits_pref"></span></p>
+            <p><span class="label">Centres d'intérêt :</span> <span id="interets_pref"></span></p>
+            <p><span class="label">Niveau d'expertise :</span> <span id="expertise"></span></p>
+        </div>
+
+        <div class="section">
+            <h2>Données objets connectés</h2>
+            <ul id="objets" class="list"></ul>
+        </div>
+    </div>
+
+    <script>
+        // Récupération des données du fichier JSON (à adapter)
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                // Remplissage des champs HTML avec les données
+                document.getElementById('nom').textContent = data.informations_personnelles.nom;
+                document.getElementById('prenom').textContent = data.informations_personnelles.prénom;
+                document.getElementById('age').textContent = data.informations_personnelles.âge;
+                document.getElementById('email').textContent = data.informations_personnelles.adresse_email;
+                document.getElementById('localisation').textContent = data.informations_personnelles.localisation;
+                document.getElementById('profession').textContent = data.informations_professionnelles.profession;
+                document.getElementById('etudes').textContent = data.informations_professionnelles.niveau_études;
+                document.getElementById('interet').textContent = data.informations_professionnelles.centre_intérêt;
+                document.getElementById('inscription').textContent = data.interactions.date_inscription;
+                document.getElementById('visites').textContent = data.interactions.nombre_visites;
+                document.getElementById('produits_pref').textContent = data.préférences.types_produits;
+                document.getElementById('interets_pref').textContent = data.préférences.centres_intérêt;
+                document.getElementById('expertise').textContent = data.préférences.niveau_expertise;
+
+                // Affichage des listes (produits, formations, contributions, objets)
+                afficherListe(data.interactions.produits_achetés, 'produits', 'id_produit', 'date_achat', 'prix');
+                afficherListe(data.interactions.formations_suivies, 'formations', 'id_formation', 'date_début', 'date_fin');
+                afficherListe(data.interactions.contributions, 'contributions', 'type_contribution', 'date_contribution');
+                afficherListe(data.données_objets_connectés, 'objets', 'id_objet', 'type_objet', 'données');
+            });
+
+        // Fonction pour afficher une liste d'éléments
+        function afficherListe(elements, idListe, champ1, champ2, champ3) {
+            const liste = document.getElementById(idListe);
+            elements.forEach(element => {
+                const item = document.createElement('li');
+                item.textContent = `${element[champ1]} - ${element[champ2]} - ${element[champ3] || ''}`;
+                liste.appendChild(item);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction avec des Combinaisons de Touches</title>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            // Vérifiez si la combinaison de touches est [Cmd] + [R] (ou [Ctrl] + [R] sur Windows)
+            if ((event.metaKey || event.ctrlKey) && event.code === "KeyR") {
+                event.preventDefault(); // Empêche le comportement par défaut (rechargement de la page)
+                ouvrirComposant(); // Appel de votre fonction pour ouvrir le composant
+            }
+        });
+
+        function ouvrirComposant() {
+            // Ajoutez votre logique pour ouvrir le composant ici
+            alert("Composant ouvert !");
+        }
+    </script>
+</head>
+<body>
+    <h1>Page d'Exemple</h1>
+    <!-- Contenu de votre page -->
+</body>
+</html>
+

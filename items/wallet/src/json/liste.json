@@ -1,0 +1,13 @@
+{
+    "Justice": ["actualités judiciaires", "lois et règlements", "questions juridiques"],
+    "Santé": ["nouvelles médicales", "conseils de santé", "politiques de santé publique"],
+    "Éducation": ["nouvelles de l'éducation", "innovations pédagogiques", "problèmes scolaires"],
+    "Agriculture": ["nouvelles de l'agriculture", "innovations technologiques", "questions environnementales"],
+    "Industrie": ["nouvelles de l'industrie", "développements technologiques", "tendances économiques"],
+    "Tourisme": ["destinations touristiques", "conseils de voyage", "événements culturels"],
+    "Transports": ["nouvelles des transports", "innovations technologiques", "questions de mobilité"],
+    "Artisanat et commerce": ["artisanat local", "nouveautés commerciales", "tendances de consommation"],
+    "Nouvelles technologies": ["dernières innovations", "tendances technologiques", "questions éthiques"],
+    "Actualité locale, régionale, nationale et internationale": ["événements de la journée", "questions politiques", "problèmes sociaux"]
+    }
+    

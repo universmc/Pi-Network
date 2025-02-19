@@ -1,0 +1,182 @@
+{
+    "@context": {
+      "schema": "https://schema.org/",
+      "utms": "https://github.com/universmc/UTM",
+      "umcs": "ttps://universmc.github.io/pi/umc/" 
+    },
+    "name": "Modèle Économique Pi, UTM, UMC",
+    "description": "Un modèle économique basé sur l'IA, les Unités Temporelles Monétisables (UTM) et les UMCs (Unités de Monnaie Capacitante).",
+    "sections": [
+      {
+        "title": "Pi: Le Générateur d'UTM",
+        "description": "Pi, l'assistant IA, génère des UTMs en accomplissant des tâches.",
+        "properties": {
+          "taskValuation": {
+            "description": "Évaluation des tâches pour l'attribution d'UTMs.",
+            "types": [
+              {
+                "name": "Tâches Administratives",
+                "description": "Tâches courantes avec des valeurs UTM de base (ex: classement de documents = 1 UTM, saisie de données = 0.5 UTM).",
+                "baseUTM": {
+                  "type": "QuantitativeValue",
+                  "unitCode": "UTM"
+                }
+              },
+              {
+                "name": "Multiplicateur de Complexité",
+                "description": "Multiplicateur pour la complexité des tâches (ex: analyse complexe = multiplicateur x3).",
+                "multiplier": {
+                  "type": "Number"
+                }
+              },
+              {
+                "name": "Bonus de Précision",
+                "description": "Bonus pour la précision du travail de Pi (ex: travail sans erreur = bonus +0.2 UTM).",
+                "bonusUTM": {
+                  "type": "QuantitativeValue",
+                  "unitCode": "UTM"
+                }
+              },
+              {
+                "name": "Efficacité Temporelle",
+                "description": "Facteur d'efficacité temporelle (ex: accomplir une tâche plus rapidement = bonus +0.1 UTM par unité de temps gagnée).",
+                "bonusUTM": {
+                  "type": "QuantitativeValue",
+                  "unitCode": "UTM"
+                }
+              }
+            ]
+          },
+          "transparency": {
+            "description": "Transparence du système UTM.",
+            "properties": {
+              "utmLog": {
+                "description": "Journal transparent des tâches de Pi et des gains UTM correspondants."
+              },
+              "userDashboard": {
+                "description": "Tableau de bord utilisateur pour visualiser l'activité de Pi et le solde UTM."
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "UTM: La Valeur du Travail de Pi",
+        "description": "Les UTM représentent la valeur du travail effectué par Pi.",
+        "properties": {
+          "storage": {
+            "description": "Stockage des UTMs.",
+            "types": [
+              {
+                "name": "Intégration Wallet-ai",
+                "description": "Intégration transparente du stockage UTM dans Wallet-ai."
+              },
+              {
+                "name": "Contrat Intelligent",
+                "description": "Utilisation potentielle d'un contrat intelligent sur une blockchain pour une gestion sécurisée et transparente des UTMs."
+              }
+            ]
+          },
+          "usage": {
+            "description": "Utilisation des UTMs.",
+            "types": [
+              {
+                "name": "Rémunération de Pi",
+                "description": "Modèles de rémunération clairs pour Pi (ex: abonnement, performance).",
+                "paymentModel": {
+                  "type": "Text"
+                }
+              },
+              {
+                "name": "Récompenses Utilisateurs",
+                "description": "Système de récompenses à plusieurs niveaux pour les contributions des utilisateurs (ex: validation du travail de Pi, feedback).",
+                "rewardSystem": {
+                  "type": "Text"
+                }
+              },
+              {
+                "name": "Achats Écosystème",
+                "description": "Partenariats avec des entreprises pour permettre aux utilisateurs d'échanger des UTMs contre des biens ou des services au sein de l'écosystème."
+              }
+            ]
+          }
+        }
+      },
+      {
+        "title": "UMC: La Porte vers la Monnaie Locale",
+        "description": "Les UMCs permettent la conversion des UTMs en monnaie locale.",
+        "properties": {
+          "exchangeRate": {
+            "description": "Taux de change UTM/UMC.",
+            "types": [
+              {
+                "name": "Taux Fixe Initial",
+                "description": "Taux de change fixe initial pour établir la stabilité.",
+                "rate": {
+                  "type": "QuantitativeValue",
+                  "unitCode": "UMC"
+                }
+              },
+              {
+                "name": "Ajustement Dynamique",
+                "description": "Transition vers un taux dynamique basé sur l'offre et la demande au fur et à mesure de la croissance de l'écosystème."
+              }
+            ]
+          },
+          "conversion": {
+            "description": "Conversion des UMCs en monnaie locale.",
+            "types": [
+              {
+                "name": "Intégration Wallet-ai",
+                "description": "Conversion transparente des UMCs dans Wallet-ai."
+              },
+              {
+                "name": "Passerelles de Monnaie Locale",
+                "description": "Partenariats avec des processeurs de paiement pour faciliter la conversion en monnaies locales."
+              }
+            ]
+          }
+        }
+      },
+          {
+        "title": "Expansion de l'Écosystème",
+        "description": "Développement de l'écosystème autour des UTMs et UMCs.",
+        "properties": {
+          "staking": {
+            "description": "Possibilité pour les utilisateurs de staker des UMCs pour gagner un revenu passif ou participer aux décisions de gouvernance."
+          },
+          "liquidityPools": {
+            "description": "Création de pools de liquidité pour faciliter l'échange d'UMCs et assurer la stabilité des prix."
+          },
+          "developerIncentives": {
+            "description": "Offre de subventions ou de récompenses aux développeurs qui créent des applications utilisant les UTMs et les UMCs."
+          }
+        }
+      },
+      {
+        "title": "Défis Potentiels",
+        "description": "Prise en compte des défis potentiels.",
+        "properties": {
+          "inflation": {
+            "description": "Mise en place de mécanismes pour contrôler l'inflation des UMCs (ex: destruction de tokens, ajustement de l'offre)."
+          },
+          "security": {
+            "description": "Priorité à la sécurité à tous les niveaux, de la génération d'UTMs aux transactions UMC."
+          },
+          "regulation": {
+            "description": "Se tenir informé des évolutions réglementaires liées aux crypto-monnaies et s'y adapter."
+          }
+        }
+      },
+      {
+        "title": "Prochaines Étapes",
+        "description": "Les prochaines étapes du projet.",
+        "steps": [
+          "Cartographie détaillée des tâches: Créer une liste complète des tâches potentielles de Pi et attribuer des valeurs UTM initiales.",
+          "UMC Tokenomics: Définir l'offre totale d'UMC, le modèle de distribution et l'utilité au sein de l'écosystème.",
+          "Cadre juridique: Consulter des experts juridiques pour assurer la conformité aux réglementations en vigueur.",
+          "Engagement de la communauté: Commencer à construire une communauté autour du projet pour recueillir des commentaires et favoriser l'adoption."
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,69 @@
+{
+    "identifiant": "ID unique du client",
+    "statut": "Citoyen, Étudiant, Professionnel, Client",
+    "informations_personnelles": {
+      "nom": "Nom du client",
+      "prénom": "Prénom du client",
+      "date_naissance": "Date de naissance du client (format AAAA-MM-JJ)",
+      "adresse_email": "Adresse e-mail du client",
+      "téléphone": "Numéro de téléphone du client",
+      "adresse": {
+        "rue": "Rue du client",
+        "ville": "Ville du client",
+        "code_postal": "Code postal du client",
+        "pays": "Pays du client"
+      }
+    },
+    "informations_professionnelles": {
+      "profession": "Profession du client",
+      "niveau_études": "Niveau d'études du client",
+      "centre_intérêt": "Centre d'intérêt du client",
+      "entreprise": "Nom de l'entreprise du client (si applicable)",
+      "poste": "Poste occupé par le client (si applicable)"
+    },
+    "interactions": {
+      "date_inscription": "Date d'inscription à la plateforme (format AAAA-MM-JJ)",
+      "dernière_connexion": "Date de la dernière connexion du client (format AAAA-MM-JJ)",
+      "nombre_visites": "Nombre de visites sur la plateforme",
+      "produits_achetés": [
+        {
+          "id_produit": "ID du produit",
+          "date_achat": "Date d'achat du produit (format AAAA-MM-JJ)",
+          "prix": "Prix du produit",
+          "quantité": "Quantité de produits achetés"
+        }
+      ],
+      "formations_suivies": [
+        {
+          "id_formation": "ID de la formation",
+          "date_début": "Date de début de la formation (format AAAA-MM-JJ)",
+          "date_fin": "Date de fin de la formation (format AAAA-MM-JJ)",
+          "statut": "Statut de la formation (en cours, terminée, etc.)"
+        }
+      ],
+      "contributions": [
+        {
+          "type_contribution": "Type de contribution (article, commentaire, participation à un atelier, etc.)",
+          "date_contribution": "Date de la contribution (format AAAA-MM-JJ)",
+          "contenu": "Contenu de la contribution (texte, lien, etc.)"
+        }
+      ]
+    },
+    "préférences": {
+      "types_produits": "Types de produits préférés",
+      "centres_intérêt": "Centres d'intérêt du client",
+      "niveau_expertise": "Niveau d'expertise du client",
+      "notifications": {
+        "email": "Activer/Désactiver les notifications par e-mail",
+        "sms": "Activer/Désactiver les notifications par SMS"
+      }
+    },
+    "données_objets_connectés": [
+      {
+        "id_objet": "ID de l'objet connecté",
+        "type_objet": "Type d'objet connecté",
+        "données": "Données générées par l'objet connecté (au format JSON si possible)"
+      }
+    ],
+    "notes": "Notes additionnelles sur le client (informations importantes, commentaires, etc.)"
+  }

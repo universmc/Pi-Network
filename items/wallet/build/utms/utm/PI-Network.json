@@ -1,0 +1,62 @@
+{
+    "1. Pi: Le générateur d'UTM": {
+      "Valorisation des tâches": {
+        "Tâches administratives": {
+          "Valeur UTM de base": {
+            "Classement de documents": 1,
+            "Saisie de données": 0.5
+          },
+          "Multiplicateur de complexité": {
+            "Analyse complexe": 3
+          },
+          "Bonus de précision": {
+            "Travail sans erreur": 0.2
+          },
+          "Efficacité temporelle": {
+            "Bonus par unité de temps gagnée": 0.1
+          }
+        },
+        "Transparence": {
+          "Journal UTM": "Maintenir un journal transparent des tâches de Pi et des gains UTM correspondants.",
+          "Tableau de bord utilisateur": "Fournir aux utilisateurs un tableau de bord pour afficher l'activité de Pi et leur solde UTM."
+        }
+      }
+    },
+    "2. UTM: La valeur du travail de Pi": {
+      "Stockage": {
+        "Intégration Wallet-ai": "Intégrer de manière transparente le stockage UTM dans Wallet-ai.",
+        "Contrat intelligent": "Explorer l'utilisation d'un contrat intelligent sur une blockchain pour une gestion UTM sécurisée et transparente."
+      },
+      "Utilisation": {
+        "Rémunération de Pi": "Si Pi est une entité distincte, définir des modèles de rémunération clairs (par exemple, basé sur un abonnement, basé sur la performance).",
+        "Récompenses utilisateur": "Mettre en œuvre un système de récompenses à plusieurs niveaux pour les contributions des utilisateurs (par exemple, validation du travail de Pi, fourniture de commentaires).",
+        "Achats dans l'écosystème": "S'associer à des entreprises pour permettre aux utilisateurs d'échanger des UTM contre des biens ou des services au sein de l'écosystème."
+      }
+    },
+    "3. UMC: La porte vers la monnaie locale": {
+      "Taux de change": {
+        "Taux fixe initial": "Commencer avec un taux de change UTM/UMC fixe pour établir la stabilité.",
+        "Ajustement dynamique": "Envisager de passer à un taux dynamique basé sur l'offre et la demande à mesure que l'écosystème se développe."
+      },
+      "Conversion": {
+        "Intégration Wallet-ai": "Permettre une conversion UMC transparente dans Wallet-ai.",
+        "Passerelles de devises locales": "S'associer à des processeurs de paiement pour faciliter la conversion facile en devises locales."
+      }
+    },
+    "4. Expansion de l'écosystème": {
+      "Jalonnement": "Permettre aux utilisateurs de jalonner des UMC pour gagner un revenu passif ou participer à des décisions de gouvernance.",
+      "Pools de liquidité": "Créer des pools de liquidité pour faciliter le trading UMC et assurer la stabilité des prix.",
+      "Incitatifs pour les développeurs": "Offrir des subventions ou des récompenses aux développeurs qui créent des applications utilisant les UTM et les UMC."
+    },
+    "5. Gestion des défis potentiels": {
+      "Inflation": "Mettre en œuvre des mécanismes pour contrôler l'inflation UMC (par exemple, brûler des jetons, ajuster l'offre).",
+      "Sécurité": "Prioriser la sécurité à tous les niveaux, de la génération UTM aux transactions UMC.",
+      "Réglementation": "Se tenir informé des réglementations en constante évolution liées aux crypto-monnaies et s'y adapter en conséquence."
+    },
+    "Prochaines étapes": {
+      "Cartographie détaillée des tâches": "Créer une liste complète des tâches potentielles de Pi et attribuer des valeurs UTM initiales.",
+      "Tokenomics UMC": "Définir l'offre totale d'UMC, le modèle de distribution et l'utilité au sein de l'écosystème.",
+      "Cadre juridique": "Consulter des experts juridiques pour assurer la conformité aux réglementations pertinentes.",
+      "Engagement communautaire": "Commencer à construire une communauté autour du projet pour recueillir des commentaires et favoriser l'adoption."
+    }
+  }

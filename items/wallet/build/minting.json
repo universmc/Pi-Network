@@ -1,0 +1,61 @@
+{
+  "minting": {
+    "definition": "Le minting, ou frappe en français, désigne le processus de création de jetons, particulièrement dans le domaine des cryptomonnaies et des NFT (Non-Fungible Tokens).",
+    "categories": [
+      {
+        "name": "Cryptomonnaies",
+        "features": [
+          {
+            "name": "Création de nouvelles unités",
+            "description": "Dans les réseaux utilisant le mécanisme de consensus Proof-of-Stake (PoS), le minting permet de générer de nouveaux blocs et d'ajouter des unités de cryptomonnaie au réseau."
+          },
+          {
+            "name": "Validation des transactions",
+            "description": "Les participants au réseau valident les transactions en fonction de la quantité de cryptomonnaie qu'ils détiennent, plutôt qu'en utilisant la puissance de calcul comme dans le Proof-of-Work (PoW)."
+          },
+          {
+            "name": "Récompenses",
+            "description": "Les utilisateurs qui participent au minting reçoivent des récompenses sous forme de frais de transaction ou de nouvelles pièces."
+          }
+        ]
+      },
+      {
+        "name": "NFT",
+        "features": [
+          {
+            "name": "Création d'actifs numériques uniques",
+            "description": "Le minting de NFT consiste à créer et authentifier des actifs numériques uniques sur une blockchain, comme des œuvres d'art numériques ou des objets de collection."
+          },
+          {
+            "name": "Utilisation de smart contracts",
+            "description": "Les NFT sont souvent créés via des smart contracts qui définissent leurs caractéristiques, garantissant ainsi leur authenticité et leur unicité."
+          },
+          {
+            "name": "Processus de minting",
+            "description": "Pour mint un NFT, un artiste ou un créateur télécharge son œuvre sur une plateforme dédiée, définit ses propriétés, puis signe le minting via un portefeuille crypto."
+          },
+          {
+            "name": "Coûts associés",
+            "description": "Les frais de minting peuvent varier en fonction de la blockchain utilisée, avec des coûts potentiellement élevés sur Ethereum, tandis que d'autres blockchains comme Solana ou Polygon peuvent offrir des options moins coûteuses."
+          }
+        ],
+        "risks": [
+          {
+            "name": "Vulnérabilité",
+            "description": "Le minting peut comporter des risques, notamment la possibilité de perdre des NFT ou des cryptomonnaies si des autorisations inappropriées sont accordées ou si l'on tombe sur des offres frauduleuses."
+          },
+          {
+            "name": "Precautions",
+            "description": "Il est conseillé de privilégier les plateformes officielles et de faire preuve de prudence lors du processus de minting pour éviter les arnaques."
+          }
+        ]
+      }
+    ],
+    "emoji": {
+      "cryptomonnaies": "💰",
+      "nft": "🎨",
+      "minting": "🪙",
+      "risks": "⚠️"
+    }
+  }
+}

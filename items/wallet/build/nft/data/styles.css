@@ -1,0 +1,15 @@
+html, body {
+    display: grid;
+}
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #333;
+  }
