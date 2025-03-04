@@ -1,0 +1,31 @@
+{
+    "projectTitle": "Qi-Store - All for One",
+    "plan": [
+    {
+    "activity": "Étude de la valeur de la Pi coin",
+    "duration": "Janvier - Février 2025",
+    "description": "Surveillance de la valeur de la Pi coin et étude de son évolution sur le marché pour déterminer son potentiel en tant que monnaie de référence pour la boutique."
+    },
+    {
+    "activity": "Développement de la boutique éphémère",
+    "duration": "Mars - Avril 2025",
+    "description": "Conception et développement du site web de la boutique en ligne avec une interface utilisateur intuitive. Intégration du concept \"All for One\" en permettant aux clients d'acheter tous les produits au même prix, fixé en fonction de la valeur de la Pi coin."
+    },
+    {
+    "activity": "Déploiement de la boutique éphémère",
+    "duration": "Mai 2025",
+    "description": "Lancement de la boutique éphémère en ligne \"Qi-Store\" et mise en place des procédures pour l'acceptation de paiements en Pi coin."
+    },
+    {
+    "activity": "Promotion et communication",
+    "duration": "Juin 2025",
+    "description": "Promotion de la boutique éphémère et du concept \"All for One\" sur les réseaux sociaux, les forums de discussion crypto-monnaies, les groupes d'enthusiastes de la technologie et d'autres canaux pour générer de l'intérêt et augmenter l'audience."
+    },
+    {
+    "activity": "Évaluation et optimisation",
+    "duration": "Juillet - Décembre 2025",
+    "description": "Analyse des ventes, du trafic et des retours d'utilisateurs pour évaluer l'efficacité de la boutique éphémère \"Qi-Store\" et optimiser celle-ci si nécessaire. Considération de l'extension de la période éphémère ou de la transformation en un magasin en ligne permanent si les résultats sont prometteurs."
+    }
+    ]
+    }
+    

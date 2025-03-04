@@ -1,0 +1,23 @@
+{
+    "name": "Pi Network SDK Factory",
+    "description": "Un ensemble d'outils et de bibliothèques logicielles pour intégrer facilement les fonctionnalités de Pi Network dans vos applications",
+    "features": [
+    {
+    "name": "SDK pour la plateforme d'applications Pi",
+    "description": "Permet de construire des applications décentralisées intégrées à la cryptomonnaie Pi et à la plateforme Pi, offrant un accès aux pionniers et générant des Pi pour les développeurs."
+    },
+    {
+    "name": "Intégration de paiements",
+    "description": "Intégrez des paiements app-to-user (A2U) dans votre application en utilisant les blocs de construction pour interagir avec la blockchain Pi et le back-end Pi."
+    },
+    {
+    "name": "Sécurité",
+    "description": "Gardez votre clé API en sécurité pour accéder en toute sécurité au back-end Pi en tant que développeur d'applications."
+    },
+    {
+    "name": "Réseau Pi Mainnet et Testnet",
+    "description": "Sélectionnez le réseau sur lequel vous souhaitez déployer votre application, car le SDK Pi se connectera automatiquement au réseau correspondant."
+    }
+    ]
+    }
+    

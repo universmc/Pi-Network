@@ -1,0 +1,8 @@
+{
+    "communication": {
+      "port": 31405,
+      "ip": "127.0.0.5"
+    },
+    "piNetwork": {
+    }
+  }

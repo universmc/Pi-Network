@@ -1,0 +1,24 @@
+{
+    "piDay": {
+    "theme": "PiDay",
+    "startDate": "2025-03-14",
+    "endDate": "2025-03-15",
+    "countdown": true,
+    "showConfetti": true,
+    "showFireworks": true,
+    "showSpecialFeatures": true
+    },
+    "communication": {
+    "port": 31400,
+    "ip": "127.0.0.1"
+    },
+    "social": {
+    "twitter": {
+    "hashtags": ["PiDay", "PiNetwork", "CelebratePi"]
+    },
+    "instagram": {
+    "hashtags": ["PiDay", "PiNetwork", "CelebratePi"]
+    }
+    }
+    }
+    

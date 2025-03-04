@@ -1,7 +1,7 @@
 const express = require('express');
 const Tme = require('./runner');
 
-const port = 007;
+const port = 3007;
 const app = express();
 
 app.get("/heavy", (req, res) => {
